@@ -1,0 +1,62 @@
+﻿Build started 27-01-2022 10.10.32 PM.
+     1>Project "E:\FYMSC\SY project\Code\License Manager\Working\License Manager\License Manager\License Manager.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\License Manager.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       Midl:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\License Manager.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "License ManagerDlg.cpp"
+         License ManagerDlg.cpp
+     1>e:\fymsc\sy project\code\license manager\working\license manager\license manager\license managerdlg.cpp(301): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>e:\fymsc\sy project\code\license manager\working\license manager\license manager\license managerdlg.cpp(308): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>e:\fymsc\sy project\code\license manager\working\license manager\license manager\license managerdlg.cpp(315): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\fymsc\sy project\code\license manager\working\license manager\license manager\license managerdlg.cpp(317): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\fymsc\sy project\code\license manager\working\license manager\license manager\license managerdlg.cpp(366): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\fymsc\sy project\code\license manager\working\license manager\license manager\license managerdlg.cpp(443): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\fymsc\sy project\code\license manager\working\license manager\license manager\license managerdlg.cpp(511): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\fymsc\sy project\code\license manager\working\license manager\license manager\license managerdlg.cpp(521): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\fymsc\sy project\code\license manager\working\license manager\license manager\license managerdlg.cpp(563): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\fymsc\sy project\code\license manager\working\license manager\license manager\license managerdlg.cpp(594): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\fymsc\sy project\code\license manager\working\license manager\license manager\license managerdlg.cpp(598): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\fymsc\sy project\code\license manager\working\license manager\license manager\license managerdlg.cpp(435): warning C4101: 'oldcode' : unreferenced local variable
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug\ /nologo /fo"Debug\License Manager.res" "License Manager.rc" 
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\FYMSC\SY project\Code\License Manager\Working\License Manager\Debug\License Manager.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\License Manager.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\FYMSC\SY project\Code\License Manager\Working\License Manager\Debug\License Manager.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\FYMSC\SY project\Code\License Manager\Working\License Manager\Debug\License Manager.lib" /MACHINE:X86 "Debug\License Manager.res"
+         "Debug\License Manager.exe.embed.manifest.res"
+         Debug\DlgProxy.obj
+         Debug\Expire.obj
+         "Debug\License Manager.obj"
+         "Debug\License ManagerDlg.obj"
+         Debug\stdafx.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\License Manager.exe.embed.manifest" /manifest "Debug\License Manager.exe.intermediate.manifest" "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         License Manager.vcxproj -> E:\FYMSC\SY project\Code\License Manager\Working\License Manager\Debug\License Manager.exe
+       RegisterOutput:
+         "E:\FYMSC\SY project\Code\License Manager\Working\License Manager\Debug\License Manager.exe" /RegServer
+       FinalizeBuildStatus:
+         Deleting file "Debug\License Manager.unsuccessfulbuild".
+         Touching "Debug\License Manager.lastbuildstate".
+     1>Done Building Project "E:\FYMSC\SY project\Code\License Manager\Working\License Manager\License Manager\License Manager.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.35

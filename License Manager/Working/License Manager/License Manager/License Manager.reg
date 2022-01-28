@@ -1,0 +1,17 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\LicenseManager.Application = LicenseManager Application
+
+
+HKEY_CLASSES_ROOT\LicenseManager.Application\CLSID = {FEC12A09-80FB-4DE8-8826-59A1D7A26DDC}
+
+HKEY_CLASSES_ROOT\CLSID\{FEC12A09-80FB-4DE8-8826-59A1D7A26DDC} = LicenseManager Application
+HKEY_CLASSES_ROOT\CLSID\{FEC12A09-80FB-4DE8-8826-59A1D7A26DDC}\ProgId = LicenseManager.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{FEC12A09-80FB-4DE8-8826-59A1D7A26DDC}\LocalServer32 = License Manager.EXE

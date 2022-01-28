@@ -1,0 +1,29 @@
+// LicenseManager.idl : type library source for License Manager.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (LicenseManager.tlb).
+
+[ uuid(4AF5C4FF-2427-4357-8502-98B8B18D64D3), version(1.0) ]
+library LicenseManager
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CLicenseManagerDoc
+	
+	[ uuid(43A21C41-3300-4795-B00C-9EBCC206996A) ]
+	dispinterface ILicenseManager
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CLicenseManagerDoc
+	
+	[ uuid(FEC12A09-80FB-4DE8-8826-59A1D7A26DDC) ]
+	coclass LicenseManager
+	{
+		[default] dispinterface ILicenseManager;
+	};
+};
